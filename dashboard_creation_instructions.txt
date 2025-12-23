@@ -1,0 +1,128 @@
+# STEP 5: DASHBOARD CREATION INSTRUCTION DOCUMENT
+
+## Dashboard Title: Remote Work Productivity & Morale Analysis
+
+## Objective:
+Create a one-page interactive dashboard that visualizes the impact of remote work on productivity and employee morale, based on analysis of 2020-2021 survey data.
+
+## Dataset:
+Use the 'final_dashboard_data.csv' file containing:
+- work_type_standardized (In-Office, Hybrid, Remote)
+- productivity_score (numerical scale)
+- morale_score (1-5 scale)
+- year (2020, 2021)
+
+## Dashboard Layout:
+
+### Section 1: Key Performance Indicators (KPI Cards)
+Create 6 KPI cards arranged in a 2x3 grid:
+
+1. **Total Responses**
+   - Metric: Count of all survey responses
+   - Value: 3,019
+
+2. **Average Productivity Score**
+   - Metric: Mean of productivity_score
+   - Value: 16.30
+
+3. **Average Morale Score**
+   - Metric: Mean of morale_score
+   - Value: 3.82
+
+4. **Remote Work Productivity**
+   - Metric: Mean productivity for Remote workers
+   - Value: 21.11
+
+5. **Remote Work Morale**
+   - Metric: Mean morale for Remote workers
+   - Value: 4.24
+
+6. **Hybrid Work Productivity**
+   - Metric: Mean productivity for Hybrid workers
+   - Value: 19.18
+
+### Section 2: Productivity Analysis
+Create two side-by-side visualizations:
+
+1. **Bar Chart: Productivity by Work Type**
+   - X-axis: Work Type (In-Office, Hybrid, Remote)
+   - Y-axis: Average Productivity Score
+   - Colors: Different color for each work type
+   - Title: "Average Productivity by Work Arrangement"
+
+2. **Line Chart: Productivity Trends by Year**
+   - X-axis: Year (2020, 2021)
+   - Y-axis: Average Productivity Score
+   - Lines: One for each work type (In-Office, Hybrid, Remote)
+   - Title: "Productivity Trends: 2020 vs 2021"
+
+### Section 3: Morale Analysis
+Create two side-by-side visualizations:
+
+1. **Bar Chart: Morale by Work Type**
+   - X-axis: Work Type (In-Office, Hybrid, Remote)
+   - Y-axis: Average Morale Score
+   - Colors: Different color for each work type
+   - Title: "Average Morale by Work Arrangement"
+
+2. **Stacked Bar Chart: Work Type Distribution by Year**
+   - X-axis: Year (2020, 2021)
+   - Y-axis: Count of Responses
+   - Stacked segments: In-Office, Hybrid, Remote
+   - Title: "Work Arrangement Distribution: 2020 vs 2021"
+
+### Section 4: Correlation Analysis
+Create a scatter plot:
+
+1. **Scatter Plot: Morale vs Productivity**
+   - X-axis: Morale Score (1-5)
+   - Y-axis: Productivity Score (-40 to 50)
+   - Color coding: By Work Type (In-Office, Hybrid, Remote)
+   - Title: "Relationship between Morale and Productivity"
+   - Add trend lines for each work type
+   - Show correlation coefficient (0.245)
+
+### Section 5: Insights Summary
+Add a text box with key findings:
+
+"Key Findings:
+1. Remote workers report highest productivity (21.11) and morale (4.24)
+2. Hybrid workers show balanced results (19.18 productivity, 3.83 morale)
+3. In-office workers report lowest productivity (11.91) and morale (3.58)
+4. Positive correlation between morale and productivity (r=0.245)
+5. Productivity increased from 2020 to 2021 across all work types"
+
+## Dashboard Design Guidelines:
+
+1. **Color Scheme:**
+   - Use professional, accessible colors
+   - Consistent color coding for work types:
+     * In-Office: Blue (#1f77b4)
+     * Hybrid: Orange (#ff7f0e)
+     * Remote: Green (#2ca02c)
+
+2. **Typography:**
+   - Clear, readable fonts
+   - Consistent sizing hierarchy
+   - Bold titles, regular body text
+
+3. **Layout:**
+   - Clean, uncluttered design
+   - Logical flow from KPIs to detailed analysis
+   - Responsive to different screen sizes
+
+4. **Interactivity:**
+   - Tooltips on hover for data points
+   - Filter options by year or work type
+   - Clickable elements for drill-down analysis
+
+## Data Validation:
+- Verify all 3,019 records are loaded
+- Confirm no negative values for morale (should be 1-5 scale)
+- Ensure productivity scores range from -40 to 50
+- Check that work types are properly categorized (In-Office, Hybrid, Remote)
+
+## Export Options:
+- Ensure dashboard can be exported as PDF for sharing
+- Include option to export individual charts as images
+- Provide data export functionality for further analysis
