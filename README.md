@@ -2,7 +2,7 @@
 
 A comprehensive data analysis project examining the impact of remote work arrangements on employee productivity and morale using survey data from 2020-2021.
 
-## 📊 Project Overview
+##  Project Overview
 
 This project analyzes over 3,000 survey responses to understand how different work arrangements (remote, hybrid, in-office) affect employee productivity and morale. The analysis provides data-driven insights and policy recommendations for post-pandemic work arrangements.
 
@@ -12,7 +12,7 @@ This project analyzes over 3,000 survey responses to understand how different wo
 - **Hybrid models offer balanced benefits** between productivity and collaboration
 - **Strong positive correlation** between employee morale and productivity
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 WORK-ANALYSIS/
@@ -35,7 +35,7 @@ WORK-ANALYSIS/
 └── README.md                          # This file
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.7+
@@ -80,7 +80,7 @@ python hypothesis_testing.py
 python export_visualization.py
 ```
 
-## 📈 Analysis Methodology
+##  Analysis Methodology
 
 ### 1. Data Understanding
 - Loaded and examined 2020 and 2021 remote work survey datasets
@@ -96,10 +96,10 @@ python export_visualization.py
 ### 3. Hypothesis Testing
 Four main hypotheses were tested using statistical methods:
 
-- **H1**: Remote work increases productivity ✅ **SUPPORTED** (p < 0.001)
-- **H2**: Remote work decreases morale ❌ **NOT SUPPORTED** (remote has higher morale)
-- **H3**: Hybrid work provides optimal balance ✅ **SUPPORTED**
-- **H4**: In-office has highest collaboration ❌ **NOT SUPPORTED** (remote has highest morale)
+- **H1**: Remote work increases productivity  **SUPPORTED** (p < 0.001)
+- **H2**: Remote work decreases morale  **NOT SUPPORTED** (remote has higher morale)
+- **H3**: Hybrid work provides optimal balance  **SUPPORTED**
+- **H4**: In-office has highest collaboration  **NOT SUPPORTED** (remote has highest morale)
 
 ### 4. Statistical Results
 - **Sample Size**: 3,019 total responses (1,507 from 2020, 1,512 from 2021)
@@ -109,7 +109,7 @@ Four main hypotheses were tested using statistical methods:
   - Remote: 653 (21.6%)
 - **Statistical Significance**: All major findings significant at p < 0.001
 
-## 📊 Key Insights
+## Key Insights
 
 ### 1. Remote Work Productivity Advantage
 - Remote productivity score: **21.11**
@@ -134,7 +134,7 @@ Four main hypotheses were tested using statistical methods:
 - 2021 average productivity: **18.41**
 - **30% improvement** from 2020 to 2021
 
-## 🏢 Policy Recommendations
+##  Policy Recommendations
 
 Based on the analysis, we recommend a **Flexible Hybrid Model**:
 
@@ -154,7 +154,7 @@ Based on the analysis, we recommend a **Flexible Hybrid Model**:
 - Maintain morale scores above 3.82 baseline
 - Monitor employee satisfaction and retention rates
 
-## 📋 Dashboard Components
+## Dashboard Components
 
 The analysis includes instructions for creating an interactive dashboard with:
 
@@ -164,14 +164,14 @@ The analysis includes instructions for creating an interactive dashboard with:
 - **Correlation Plots**: Relationship between morale and productivity
 - **Trend Analysis**: Changes from 2020 to 2021
 
-## 🔍 Data Quality & Validation
+##  Data Quality & Validation
 
 - **Completeness**: 100% response rate for key variables
 - **Consistency**: Standardized scales across years
 - **Statistical Power**: Large sample sizes ensure reliable results
 - **Validation**: Cross-checked findings across multiple metrics
 
-## 📚 Files Description
+##  Files Description
 
 ### Data Files
 - `2020_rws.csv`: Original 2020 survey data (1,507 responses, 73 columns)
@@ -192,7 +192,7 @@ The analysis includes instructions for creating an interactive dashboard with:
 - `policy_recommendation.txt`: Evidence-based policy recommendations
 - `final_review.txt`: Complete project validation and quality assurance
 
-## 🤝 Contributing
+##  Contributing
 
 This project was completed as a collaborative analysis with defined team roles:
 - **Data Analyst**: Data loading and initial exploration
@@ -200,11 +200,11 @@ This project was completed as a collaborative analysis with defined team roles:
 - **Dashboard Architect**: Visualization design and implementation
 - **Policy Lead**: Translation of findings into actionable recommendations
 
-## 📄 License
+##  License
 
 This project is available for educational and research purposes. Please cite appropriately if using the methodology or findings.
 
-## 📞 Contact
+##  Contact
 
 For questions about the analysis methodology or findings, please refer to the documentation files or create an issue in this repository.
 
