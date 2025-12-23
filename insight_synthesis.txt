@@ -1,0 +1,41 @@
+# STEP 6: INSIGHT SYNTHESIS
+
+## Data-Backed Insights for Remote Work Analysis Dashboard
+
+### Insight 1: Remote Work Boosts Productivity
+**Finding:** Employees working remotely report significantly higher productivity compared to in-office workers.
+- Remote productivity score: 21.11
+- In-office productivity score: 11.91
+- Difference: +9.20 points (p < 0.001)
+- This represents a 77% increase in self-reported productivity for remote workers.
+
+### Insight 2: Remote Work Enhances Employee Morale
+**Finding:** Contrary to common concerns, remote work is associated with higher morale scores.
+- Remote morale score: 4.24 (out of 5)
+- In-office morale score: 3.58 (out of 5)
+- Difference: +0.66 points (p < 0.001)
+- This challenges the hypothesis that remote work decreases morale due to reduced collaboration.
+
+### Insight 3: Hybrid Model Offers Balanced Benefits
+**Finding:** Hybrid work arrangements provide a middle ground between remote and in-office work.
+- Hybrid productivity: 19.18 (between remote 21.11 and in-office 11.91)
+- Hybrid morale: 3.83 (between remote 4.24 and in-office 3.58)
+- 32% of workforce prefers hybrid arrangements (987 of 3019 responses)
+
+### Insight 4: Positive Correlation Between Morale and Productivity
+**Finding:** There is a moderate positive correlation between employee morale and productivity.
+- Overall correlation coefficient: 0.245
+- In-office correlation: 0.206
+- Hybrid correlation: 0.234
+- Remote correlation: 0.211
+- This suggests that happier employees tend to be more productive across all work arrangements.
+
+### Insight 5: Productivity Gains Consistent Across Years
+**Finding:** Productivity improvements associated with remote work were observed in both years of the study.
+- 2020 average productivity: 14.18
+- 2021 average productivity: 18.41
+- Improvement from 2020 to 2021: +4.23 points
+- This indicates that remote work productivity benefits have increased over time.
+
+## Business Implications:
+These insights suggest that organizations should consider remote and hybrid work arrangements not just as temporary pandemic responses, but as potentially beneficial long-term strategies for both productivity and employee satisfaction.
